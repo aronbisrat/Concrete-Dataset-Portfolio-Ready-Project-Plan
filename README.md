@@ -39,6 +39,14 @@ These features are grounded in civil engineering domain knowledge.
 - Engineered ratios improved model performance
 - XGBoost outperformed Random Forest after tuning
 
+  ### Predicted vs Actual Compressive Strength
+![Predicted vs Actual](assets/images/predicted-vs-actual.png)
+
+This scatter plot compares the **model’s predicted compressive strength** values against the **actual measured values**.  
+- Points close to the diagonal line indicate strong agreement between prediction and reality.  
+- The tight clustering shows that the RandomForest model generalizes well, capturing the underlying patterns in the dataset.  
+- Outliers highlight areas where the model struggles, offering opportunities for further feature engineering or model tuning.
+
 ## Tools & Libraries
 - Python
 - Pandas, NumPy
